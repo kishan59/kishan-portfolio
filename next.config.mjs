@@ -5,6 +5,7 @@ const nextConfig = {
         ignoreDuringBuilds: true
     },
     basePath: '/kishan-portfolio',     // this is only for github pages deployment, remove it when deploy to others
+    assetPrefix: '/kishan-portfolio/',     // this is only for github pages deployment, remove it when deploy to others
 };
 
 export default nextConfig;
