@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from '@/app/theme-provider';
+import { authorInfo } from "@/data";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -15,7 +16,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Kishan's Portfolio",
+  title: `${authorInfo.firstname}'s Portfolio`,
   description: "Modern & minimalist Web Dev Portfolio",
 };
 

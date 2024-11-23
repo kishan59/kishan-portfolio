@@ -8,6 +8,7 @@ import { useState } from "react";
 import animationData from '@/data/confetti.json';
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+import { authorInfo } from "@/data";
 
 export const BentoGrid = ({
   className,
@@ -51,10 +52,12 @@ export const BentoGridItem = ({
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('kishanlamba59@gmail.com');
+    navigator.clipboard.writeText(authorInfo.email);
     setCopied(true);
   }
 
+  const techStatck = ['React', 'NextJs', 'Typescript', 'Express', 'MongoDB', 'NodeJs']
+  
   return (
     <div
       className={cn(
@@ -102,7 +105,7 @@ export const BentoGridItem = ({
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                {['React', 'NextJs', 'Typescript'].map((item) => (
+                {techStatck.slice(0,3).map((item) => (
                   <span key={item} className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                     {item}
                   </span>
@@ -111,7 +114,7 @@ export const BentoGridItem = ({
               </div>
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
                 <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]"></span>
-                {['AWS', 'MongoDB', 'NodeJs'].map((item) => (
+                {techStatck.slice(-3).map((item) => (
                   <span key={item} className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                     {item}
                   </span>

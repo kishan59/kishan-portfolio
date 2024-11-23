@@ -3,6 +3,7 @@ import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa6'
+import { authorInfo } from '@/data'
 
 const Hero = () => {
   return (
@@ -20,21 +21,22 @@ const Hero = () => {
         <div className='flex justify-center relative my-20 z-10'>
             <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
                 <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-                    Dynamic web magic with Next.js
+                    Building the Future of Web Applications
                 </h2>
 
                 <TextGenerateEffect
                     className='text-center text-[40px] md:text-5xl lg:text-6xl'
-                    words='Transforming Concepts into Seamless User Experiences'
+                    // words='Transforming Concepts into Seamless User Experiences'
+                    words='Turning Ideas into Reality, Pixel by Pixel'
                 />
 
                 <p className='text-center md:tracking-wide mb-4 text-sm md:text-lg lg:text-2xl'>
-                    Hi, I&apos;m Kishan, a Web Developer based in India.
+                    Hi, I&apos;m {authorInfo.firstname}, a Web Developer based in India.
                 </p>
 
-                <a href='#about'>
-                    <MagicButton 
-                        title='Show my work'
+                <a href='#contact'>
+                    <MagicButton
+                        title="Let's Connect"
                         icon={<FaLocationArrow />}
                         position='right'
                     />
