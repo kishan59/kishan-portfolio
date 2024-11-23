@@ -137,6 +137,12 @@ export const BentoGridItem = ({
                       preserveAspectRatio: 'xMidYMid slice'
                     }
                   }}
+                  eventListeners={[
+                    {
+                      eventName: 'complete',
+                      callback: () => { setCopied(true) },
+                    },
+                  ]}
                 />
               </div>
 
