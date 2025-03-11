@@ -10,6 +10,7 @@ import { IoCopyOutline } from "react-icons/io5";
 import { authorInfo } from "@/data";
 
 import dynamic from "next/dynamic";
+import { imagePrefix } from "@/app/global-variables";
 const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
 
 export const BentoGrid = ({
@@ -73,14 +74,14 @@ export const BentoGridItem = ({
       <div className={`${id === 6 && 'flex justify-center'} h-full`}>
        <div className="w-full h-full absolute">
         <img 
-          src={img} alt={img} 
+          src={imagePrefix+img} alt={img} 
           className={cn(imgClassName, 'object-cover object-center')}
         />
        </div>
        <div className={`absolute right-0 -bottom-5 ${id === 5 && 'w-full opacity-80'}`}>
           {spareImg && (
             <img
-              src={spareImg} alt={spareImg} 
+              src={imagePrefix+spareImg} alt={spareImg} 
               className={'object-cover object-center w-full h-full'}
             />
           )}
