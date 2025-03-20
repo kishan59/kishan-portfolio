@@ -59,7 +59,7 @@ export const BentoGridItem = ({
     setCopied(true);
   }
 
-  const techStatck = ['React', 'NextJs', 'Typescript', 'Express', 'MongoDB', 'NodeJs'];
+  const techStatck = ['React', 'NodeJs', 'NextJs', 'UI/UX', 'React Native', 'SEO'];
   
   return (
     <div
