@@ -81,101 +81,96 @@
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      title: "Radiant Solar Edge Website",
+      des: "Developed a user-friendly website showcasing a diverse range of solar solutions.",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://radiantsolaredge.com/",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      title: "Xeltra Web Studio: Online Business Presence",
+      des: "Developed a strategic online presence for Xeltra Web Studio. Focused on lead generation and brand establishment.",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://xeltrawebstudio.com/",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      title: "Brainwave AI Landing Replica: React & Tailwind",
+      des: "A personal project focusing on UI/UX and responsive design, replicating the Brainwave AI landing page.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://kishan59.github.io/website_theme/",
     },
-    {
-      id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
-    },
+    // {
+    //   id: 4,
+    //   title: "Animated Apple Iphone 3D Website",
+    //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    //   img: "/p4.svg",
+    //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    //   link: "https://github.com/adrianhajdin/iphone",
+    // },
   ];
   
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "We were extremely impressed with Kishan's work on our website. He helped us create a professional online presence that effectively showcases our range of solar solutions and attracts new customers. We're already seeing positive results!",
+      name: "Divyang Gajjar",
+      title: "CEO of Radiant Solar Edge",
+      image: '/client-4.svg'
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "His expertise in Node.js and Nest.js was instrumental in resolving critical backend issues and streamlining our admin panel. He delivered solutions quickly and effectively. We were impressed with his ability to tackle complex challenges and get our project back on track.",
+      name: "Saif Ali Tai",
+      title: "CTO of MindNova Infotech",
+      image: '/client-3.svg'
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Working with Kishan and his team was a fantastic experience. The logo designed for us perfectly captured our brand's vision. Kishan managed the project seamlessly, ensuring clear communication and timely delivery. We are extremely happy with the final result.",
+      name: "Nikhila Rapeli",
+      title: "Founder of POSTIN",
+      image: '/client-2.svg'
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "The website Kishan created for Xeltra Web Studio has been a game-changer for our business. It has helped us generate more leads, showcase our services effectively, and establish a strong online presence. We highly recommend his services.",
+      name: "Jignesh More",
+      title: "Founder of Xeltra Web Studio",
+      image: '/client-1.svg'
     },
   ];
   
   export const companies = [
     {
       id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
+      name: "react",
+      mainImg: "/react.svg",
     },
     {
       id: 2,
-      name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
+      name: "nodejs",
+      mainImg: "/nodejs.svg",
     },
     {
       id: 3,
       name: "HOSTINGER",
       img: "/host.svg",
-      nameImg: "/hostName.svg",
+      mainImg: "/hostName.svg",
     },
     {
       id: 4,
       name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
+      img: "/laravel.svg",
+      mainImg: "/laravelName.svg",
     },
     {
       id: 5,
       name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
+      mainImg: "/wordpress.svg",
     },
   ];
   
