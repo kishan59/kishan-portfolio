@@ -80,6 +80,14 @@
   
   export const projects = [
     {
+      id: 4,
+      title: "SynapseCode: Personal Code Snippet Manager",
+      des: "A personal web application designed to help developers efficiently organize, search, and manage their code snippets, ensuring valuable knowledge is easily accessible.",
+      img: "/p4.png",
+      iconLists: ["/python-icon.svg", "/flask-icon.svg", "/postgresql-icon.svg", "/bootstrap-icon.svg", "/js-icon.svg"],
+      link: "https://synapsecode-flask-app.onrender.com/",
+    },
+    {
       id: 1,
       title: "Radiant Solar Edge Website",
       des: "Developed a user-friendly website showcasing a diverse range of solar solutions.",
@@ -102,14 +110,6 @@
       img: "/p3.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg"],
       link: "https://kishan59.github.io/website_theme/",
-    },
-    {
-      id: 4,
-      title: "SynapseCode: Personal Code Snippet Manager",
-      des: "A personal web application designed to help developers efficiently organize, search, and manage their code snippets, ensuring valuable knowledge is easily accessible.",
-      img: "/p4.png",
-      iconLists: ["/python-icon.svg", "/flask-icon.svg", "/postgresql-icon.svg", "/bootstrap-icon.svg", "/js-icon.svg"],
-      link: "https://synapsecode-flask-app.onrender.com/",
     },
   ];
   
