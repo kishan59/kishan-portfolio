@@ -103,14 +103,14 @@
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg"],
       link: "https://kishan59.github.io/website_theme/",
     },
-    // {
-    //   id: 4,
-    //   title: "Animated Apple Iphone 3D Website",
-    //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    //   img: "/p4.png",
-    //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    //   link: "https://github.com/adrianhajdin/iphone",
-    // },
+    {
+      id: 4,
+      title: "SynapseCode: Personal Code Snippet Manager",
+      des: "A personal web application designed to help developers efficiently organize, search, and manage their code snippets, ensuring valuable knowledge is easily accessible.",
+      img: "/p4.png",
+      iconLists: ["/python-icon.svg", "/flask-icon.svg", "/postgresql-icon.svg", "/bootstrap-icon.svg", "/js-icon.svg"],
+      link: "https://synapsecode-flask-app.onrender.com/",
+    },
   ];
   
   export const testimonials = [
